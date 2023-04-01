@@ -60,6 +60,11 @@ body{
     font-size: 24px;
     padding: 20px 60px;
     margin-top: 10px;
+    transition: all 0.2s;
+}
+
+.h-btn:hover{
+    background-color: #31A444;
 }
 
 .h-btn-f{
