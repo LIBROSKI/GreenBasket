@@ -88,49 +88,56 @@ body{
 .m-wyprzedaż{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    gap: 10px;
+    justify-content: space-between;
 }
 
-.m-w{
+.product-panel{
     color: black;
     text-decoration: none;
-    width: 25%;
-    height: 500px;
+    width: 250px;
+    height: 550px;
     border-radius: 15px;
-    
+    font-family: 'Nunito Sans', sans-serif;
 }
 
-.m-w1{
-    background-image: url();
-    background-color: wheat;
-    background-size: cover;
-    width: 80%;
-    height: 300px;
+.pp-procent{
+    color: #F8F8F8;
+    background-color: #31A444;
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 15px;
+    position: relative;
+    width: 35px;
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+    bottom: -380px;
+    right: -180px;
 }
 
-.m-w2{
-    background-image: url();
-    background-color: wheat;
-    background-size: cover;
-    width: 80%;
+.pp-img{
+    width: 200px;
     height: 300px;
+    display: flex;
+    background-color: #f2f2f2;
+    padding: 50px 25px;
+    border-radius: 15px;
+
 }
 
-.m-w3{
-    background-image: url();
-    background-color: wheat;
-    background-size: cover;
-    width: 80%;
-    height: 300px;
+.pp-price-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
 }
 
-.m-w4{
-    background-image: url();
-    background-color: wheat;
-    background-size: cover;
-    width: 80%;
-    height: 300px;
+.pp-price{
+    color: #0c0c0e;
+}
+
+.pp-price-pre{
+    color: #b7babd;
+    text-decoration: line-through;
+    font-size: 13px;
 }
 
 .navbar {
@@ -309,8 +316,7 @@ body{
 .m-nowości{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    gap: 10px;
+    justify-content: space-between;
 }
 
 .footer{
