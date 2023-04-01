@@ -4,6 +4,19 @@ font-family: 'Open Sans', sans-serif;
 font-family: 'Oxygen', sans-serif;
 font-family: 'Nunito Sans', sans-serif;
 */
+
+h2{
+    font-family: 'Open Sans', sans-serif;
+}
+
+h3{
+    font-family: 'Oxygen', sans-serif;
+}
+
+p{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
 body{
     width: 80%;
     margin: 0 auto;
@@ -47,6 +60,11 @@ body{
     font-size: 24px;
     padding: 20px 60px;
     margin-top: 10px;
+    transition: all 0.2s;
+}
+
+.h-btn:hover{
+    background-color: #31A444;
 }
 
 .h-btn-f{
@@ -58,3 +76,4 @@ body{
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
 }
+
