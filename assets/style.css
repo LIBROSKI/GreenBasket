@@ -13,6 +13,14 @@ h3{
     font-family: 'Oxygen', sans-serif;
 }
 
+h4{
+    font-family: 'Oxygen', sans-serif;
+}
+
+h5{
+    font-family: 'Oxygen', sans-serif;
+}
+
 p{
     font-family: 'Nunito Sans', sans-serif;
 }
@@ -36,7 +44,7 @@ body{
     background-image: url("GreenBasket.png");
     background-size: 100%;
     display: flex;
-    border-radius: 5px;
+    border-radius: 15px;
 }
 
 .h-nav{
@@ -88,10 +96,10 @@ body{
 .m-w{
     color: white;
     text-decoration: none;
-    width: 20%;
-    height: 400px;
+    width: 25%;
+    height: 500px;
     background-color: #1D1F21;
-    border-radius: 10px;
+    border-radius: 15px;
     
 }
 
@@ -101,7 +109,7 @@ body{
     margin-left: 10%;
     margin-top: 30px;
     width: 80%;
-    height: 200px;
+    height: 300px;
 }
 
 .m-w2{
@@ -110,7 +118,7 @@ body{
     margin-left: 10%;
     margin-top: 30px;
     width: 80%;
-    height: 200px;
+    height: 300px;
 }
 
 .m-w3{
@@ -119,7 +127,7 @@ body{
     margin-left: 10%;
     margin-top: 30px;
     width: 80%;
-    height: 200px;
+    height: 300px;
 }
 
 .m-w4{
@@ -128,7 +136,7 @@ body{
     margin-left: 10%;
     margin-top: 30px;
     width: 80%;
-    height: 200px;
+    height: 300px;
 }
 
 .navbar {
