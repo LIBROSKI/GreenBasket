@@ -77,3 +77,57 @@ body{
     border-bottom-right-radius: 10px;
 }
 
+.m-wyprzedaż{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 500px;
+    gap: 10px;
+}
+
+.m-w{
+    color: white;
+    text-decoration: none;
+    width: 20%;
+    height: 400px;
+    background-color: #1D1F21;
+    border-radius: 10px;
+    
+}
+
+.m-w1{
+    background-image: url(https://marka.plus/wp-content/uploads/2023/01/eko-zawieszki_1.png);
+    background-size: cover;
+    width: 80%;
+    height: 200px;
+}
+
+.m-w2{
+    background-image: url();
+    background-color: wheat;
+    background-size: cover;
+    margin-left: 10%;
+    margin-top: 30px;
+    width: 80%;
+    height: 200px;
+}
+
+.m-w3{
+    background-image: url();
+    background-color: wheat;
+    background-size: cover;
+    margin-left: 10%;
+    margin-top: 30px;
+    width: 80%;
+    height: 200px;
+}
+
+.m-w4{
+    background-image: url();
+    background-color: wheat;
+    background-size: cover;
+    margin-left: 10%;
+    margin-top: 30px;
+    width: 80%;
+    height: 200px;
+}
