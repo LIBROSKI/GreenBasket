@@ -175,6 +175,7 @@ body{
     color: #1D1F21;
     font-family: 'Oxygen', sans-serif;
     font-weight: 600;
+    transition: all 0.2s;
 }
 
 .link-1:hover {
@@ -193,6 +194,7 @@ body{
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     font-size: 32px;
+    transition: all 0.2s;
 }
 
 .nb-b-logo:hover .nb-b-l-1{
@@ -222,6 +224,7 @@ body{
     font-size: 14px;
     font-family: 'Oxygen', sans-serif;
     font-weight: 600;
+    transition: all 0.2s;
 }
 
 .link-2:hover {
@@ -238,6 +241,7 @@ body{
     color: #1D1F21;
     font-family: 'Oxygen', sans-serif;
     font-weight: 600;
+    transition: all 0.2s;
 }
 
 .link-3 i {
@@ -291,6 +295,7 @@ body{
     height: 600px;
     background-image: url(https://www.crazyshop.pl/zasoby/images/middle/torba-lniana-z-haftem-oryginalny-eco-prezent_66764.jpg);
     background-size: cover;
+    border-radius: 15px;
 }
 
 .s-e2{
@@ -298,6 +303,7 @@ body{
     height: 600px;
     background-image: url(https://i.etsystatic.com/10904029/r/il/14ab01/3826399689/il_570xN.3826399689_m5b7.jpg);
     background-size: cover;
+    border-radius: 15px;
 }
 
 .m-nowości{
