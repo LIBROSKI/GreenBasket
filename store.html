@@ -53,7 +53,36 @@
         }
 
         .nb-bottom {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
 
+        }
+
+        .nb-b-logo {
+            text-decoration: none;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 600;
+            font-size: 20px;
+        }
+
+        .nb-b-l-2 {
+            color: #31A444;
+        }
+
+        .nb-b-l-1 {
+            color: #1D1F21;
+        }
+
+        .link-2 {
+            background-color: #1D1F21;
+            color: #F8F8F8;
+            padding: 10px 15px;
+            border-radius: 15px;
+            text-decoration: none;
+            font-size: 14px;
+            font-family: 'Oxygen', sans-serif;
+            font-weight: 600;
         }
     </style>
 </head>
@@ -72,10 +101,10 @@
             </nav>
         </div>
         <div class="nb-bottom">
-            <a href="index.html" class="nb-b-logo"></a>
+            <a href="index.html" class="nb-b-logo"><span class="nb-b-l-1">Green</span><span class="nb-b-l-2">Basket</span></a>
             <a href="" class="link-2"><i class="fa-solid fa-list"></i> Kategorie</a>
             <div class="nb-b-serchbar">
-                <input type="search" name="" id="" placeholder="Wyszukaj w naszym sklepie">
+                <input type="search" name="search" class="searchbar" placeholder="Wyszukaj w naszym sklepie (Nie działa D:)">
                 <i class="fa-solid fa-magnifying-glass nb-b-s-icon"></i>
             </div>
             <a href="#" class="link-3">
@@ -83,11 +112,11 @@
                 <span>Konto</span>
             </a>
             <a href="#" class="link-3">
-                <i class="fa-regular fa-user"></i>
+                <i class="fa-solid fa-heart"></i>
                 <span>Polubione</span>
             </a>
             <a href="#" class="link-3">
-                <i class="fa-regular fa-user"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
                 <span>Koszyk</span>
             </a>
         </div>
