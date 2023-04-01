@@ -327,7 +327,12 @@ body{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
     align-content: flex-start;
-    
+    color: white;
+}
+
+.in-f a{
+    text-decoration: none;
+    color: white;
 }
