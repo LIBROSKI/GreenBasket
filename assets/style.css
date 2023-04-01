@@ -89,7 +89,6 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    height: 500px;
     gap: 10px;
 }
 
@@ -276,4 +275,27 @@ body{
     position: relative;
     right: 32px;
     color: #acacac;
+}
+
+.special-event{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.s-e1{
+    width: 50%;
+    height: 600px;
+    background-image: url(https://shibushi.pl/pol_pl_Urocza-torba-eko-na-zakupy-kotek-Lola-Shopping-Bag-Lola-shibushi-586_1.png);
+    background-size: cover;
+}
+
+.s-e2{
+    width: 50%;
+    height: 600px;
+    background-image: url(https://i.etsystatic.com/10904029/r/il/14ab01/3826399689/il_570xN.3826399689_m5b7.jpg);
+    background-size: cover;
 }
