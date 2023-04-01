@@ -96,15 +96,16 @@ body{
 }
 
 .m-w1{
-    background-image: url(https://marka.plus/wp-content/uploads/2023/01/eko-zawieszki_1.png);
+    background-image: url();
     background-size: cover;
+    margin-left: 10%;
+    margin-top: 30px;
     width: 80%;
     height: 200px;
 }
 
 .m-w2{
     background-image: url();
-    background-color: wheat;
     background-size: cover;
     margin-left: 10%;
     margin-top: 30px;
@@ -114,7 +115,6 @@ body{
 
 .m-w3{
     background-image: url();
-    background-color: wheat;
     background-size: cover;
     margin-left: 10%;
     margin-top: 30px;
@@ -124,7 +124,6 @@ body{
 
 .m-w4{
     background-image: url();
-    background-color: wheat;
     background-size: cover;
     margin-left: 10%;
     margin-top: 30px;
