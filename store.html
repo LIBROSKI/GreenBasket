@@ -7,13 +7,18 @@
     <title>GreenBasket - Sklep</title>
     <link rel="stylesheet" href="assets/style.css">
     <script src="https://kit.fontawesome.com/d018ac103d.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <style>
         .navbar {
-
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            padding: 10px 0;
         }
 
         .nb-top {
-
+            display: flex;
+            gap: 50%;
         }
 
         .navbar-local {
@@ -28,14 +33,27 @@
 
         }
 
+        .navbar-btns-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            width: 420px;
+            font-size: 15px;
+        }
+
         .link-1 {
             text-decoration: none;
             color: #1D1F21;
             font-family: 'Open Sans', sans-serif;
+            font-weight: 600;
         }
 
         .link-1:hover {
             color: #31A444;
+        }
+
+        .nb-bottom {
+
         }
     </style>
 </head>
@@ -54,7 +72,24 @@
             </nav>
         </div>
         <div class="nb-bottom">
-            <a href="" class="nb-b-logo"></a>
+            <a href="index.html" class="nb-b-logo"></a>
+            <a href="" class="link-2"><i class="fa-solid fa-list"></i> Kategorie</a>
+            <div class="nb-b-serchbar">
+                <input type="search" name="" id="" placeholder="Wyszukaj w naszym sklepie">
+                <i class="fa-solid fa-magnifying-glass nb-b-s-icon"></i>
+            </div>
+            <a href="#" class="link-3">
+                <i class="fa-regular fa-user"></i>
+                <span>Konto</span>
+            </a>
+            <a href="#" class="link-3">
+                <i class="fa-regular fa-user"></i>
+                <span>Polubione</span>
+            </a>
+            <a href="#" class="link-3">
+                <i class="fa-regular fa-user"></i>
+                <span>Koszyk</span>
+            </a>
         </div>
     </section>
 </body>
