@@ -27,3 +27,13 @@ body{
     display: flex;
     
 }
+
+.h-btn{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+    text-decoration: none;
+}
