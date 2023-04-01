@@ -13,6 +13,14 @@ h3{
     font-family: 'Oxygen', sans-serif;
 }
 
+h4{
+    font-family: 'Oxygen', sans-serif;
+}
+
+h5{
+    font-family: 'Oxygen', sans-serif;
+}
+
 p{
     font-family: 'Nunito Sans', sans-serif;
 }
@@ -36,7 +44,7 @@ body{
     background-image: url("GreenBasket.png");
     background-size: 100%;
     display: flex;
-    border-radius: 5px;
+    border-radius: 15px;
 }
 
 .h-nav{
@@ -81,54 +89,48 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    height: 500px;
     gap: 10px;
 }
 
 .m-w{
-    color: white;
+    color: black;
     text-decoration: none;
-    width: 20%;
-    height: 400px;
-    background-color: #1D1F21;
-    border-radius: 10px;
+    width: 25%;
+    height: 500px;
+    border-radius: 15px;
     
 }
 
 .m-w1{
     background-image: url();
+    background-color: wheat;
     background-size: cover;
-    margin-left: 10%;
-    margin-top: 30px;
     width: 80%;
-    height: 200px;
+    height: 300px;
 }
 
 .m-w2{
     background-image: url();
+    background-color: wheat;
     background-size: cover;
-    margin-left: 10%;
-    margin-top: 30px;
     width: 80%;
-    height: 200px;
+    height: 300px;
 }
 
 .m-w3{
     background-image: url();
+    background-color: wheat;
     background-size: cover;
-    margin-left: 10%;
-    margin-top: 30px;
     width: 80%;
-    height: 200px;
+    height: 300px;
 }
 
 .m-w4{
     background-image: url();
+    background-color: wheat;
     background-size: cover;
-    margin-left: 10%;
-    margin-top: 30px;
     width: 80%;
-    height: 200px;
+    height: 300px;
 }
 
 .navbar {
@@ -273,4 +275,27 @@ body{
     position: relative;
     right: 32px;
     color: #acacac;
+}
+
+.special-event{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.s-e1{
+    width: 50%;
+    height: 600px;
+    background-image: url(https://shibushi.pl/pol_pl_Urocza-torba-eko-na-zakupy-kotek-Lola-Shopping-Bag-Lola-shibushi-586_1.png);
+    background-size: cover;
+}
+
+.s-e2{
+    width: 50%;
+    height: 600px;
+    background-image: url(https://i.etsystatic.com/10904029/r/il/14ab01/3826399689/il_570xN.3826399689_m5b7.jpg);
+    background-size: cover;
 }
