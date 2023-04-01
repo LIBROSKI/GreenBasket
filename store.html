@@ -9,8 +9,53 @@
     <script src="https://kit.fontawesome.com/d018ac103d.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="assets/3.png" type="image/png" />
     <style>
+        .main-store h1 {
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 700;
+            font-size: 48px;
+        }
+
         .ms-container {
             display: flex;
+            gap: 20px;
+        }
+
+        .ms-c-grid {
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 15px;
+        }
+
+        .ms-c-t-af {
+            display: flex;
+            gap: 5px;
+        }
+
+        .activated-filter {
+            color: #F8F8F8;
+            background-color: #131414;
+            text-decoration: none;
+            padding: 2px 5px;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            font-size: 15px;
+            font-family: 'Nunito Sans', sans-serif;
+        }
+
+        .dropdown {
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            align-items: start;
+        }
+
+        .dropdown-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            align-items: start;
         }
     </style>
 </head>
@@ -53,20 +98,109 @@
         <div class="ms-container">
             <div class="ms-filters">
                 <div class="dropdown">
-                    <input type="checkbox" class="">
-                    <label for=""></label>
+                    <h3 class="dropdown-title"><i class="fa-solid fa-angle-down"></i> Klasa filtrów  (placeholder)</h3>
+                    <div class="dropdown-content">
+                        <span>
+                            <input type="checkbox" id="1" class="filter">
+                            <label for="1">Jakiś filtr (placeholder)</label>
+                        </span>
+                        <span>
+                            <input type="checkbox" id="2" class="filter">
+                            <label for="2">Nie działa (placeholder)</label>
+                        </span>
+                        <span>
+                            <input type="checkbox" id="3" class="filter">
+                            <label for="3">Bo bez JS (placeholder)</label>
+                        </span>
+                    </div>
                 </div>
+                <div class="dropdown">
+                    <h3 class="dropdown-title"><i class="fa-solid fa-angle-down"></i> Klasa filtrów  (placeholder)</h3>
+                    <div class="dropdown-content">
+                        <span>
+                            <input type="checkbox" id="1" class="filter">
+                            <label for="1">Jakiś filtr (placeholder)</label>
+                        </span>
+                        <span>
+                            <input type="checkbox" id="2" class="filter">
+                            <label for="2">Nie działa (placeholder)</label>
+                        </span>
+                        <span>
+                            <input type="checkbox" id="3" class="filter">
+                            <label for="3">Bo bez JS (placeholder)</label>
+                        </span>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <h3 class="dropdown-title"><i class="fa-solid fa-angle-down"></i> Klasa filtrów  (placeholder)</h3>
+                    <div class="dropdown-content">
+                        <span>
+                            <input type="checkbox" id="1" class="filter">
+                            <label for="1">Jakiś filtr (placeholder)</label>
+                        </span>
+                        <span>
+                            <input type="checkbox" id="2" class="filter">
+                            <label for="2">Nie działa (placeholder)</label>
+                        </span>
+                        <span>
+                            <input type="checkbox" id="3" class="filter">
+                            <label for="3">Bo bez JS (placeholder)</label>
+                        </span>
+                    </div>
+                </div>
+
             </div>
             <div class="ms-catalog">
                 <div class="ms-c-title">
                 <div class="ms-c-t-af">
-                    <a href="" class="activated-filter">Jakiś filtr<i class="fa-solid fa-xmark"></i></a>
-                    <a href="" class="activated-filter">Nie działa<i class="fa-solid fa-xmark"></i></a>
-                    <a href="" class="activated-filter">Bo bez JS<i class="fa-solid fa-xmark"></i></a>
+                    <a href="#" class="activated-filter">Jakiś filtr  (placeholder)<i class="fa-solid fa-xmark"></i></a>
+                    <a href="#" class="activated-filter">Nie działa  (placeholder)<i class="fa-solid fa-xmark"></i></a>
+                    <a href="#" class="activated-filter">Bo bez JS  (placeholder)<i class="fa-solid fa-xmark"></i></a>
                 </div>
                 </div>
                 <div class="ms-c-grid">
-                    
+                    <a href="" class="m-w">
+                        <div class="m-w4"></div>
+                        <div style="display: flex; "><h2>`cena`</h2>
+                        <h5>`cena przed obniżką`</h5></div>
+                        <h3 style="margin-block-end: 0; margin-block-start: 0;">`nazwa Produktu`</h3>
+                    </a>
+                    <a href="" class="m-w">
+                        <div class="m-w4"></div>
+                        <div style="display: flex; "><h2>`cena`</h2>
+                        <h5>`cena przed obniżką`</h5></div>
+                        <h3 style="margin-block-end: 0; margin-block-start: 0;">`nazwa Produktu`</h3>
+                    </a>
+                    <a href="" class="m-w">
+                        <div class="m-w4"></div>
+                        <div style="display: flex; "><h2>`cena`</h2>
+                        <h5>`cena przed obniżką`</h5></div>
+                        <h3 style="margin-block-end: 0; margin-block-start: 0;">`nazwa Produktu`</h3>
+                    </a>
+                    <a href="" class="m-w">
+                        <div class="m-w4"></div>
+                        <div style="display: flex; "><h2>`cena`</h2>
+                        <h5>`cena przed obniżką`</h5></div>
+                        <h3 style="margin-block-end: 0; margin-block-start: 0;">`nazwa Produktu`</h3>
+                    </a>
+                    <a href="" class="m-w">
+                        <div class="m-w4"></div>
+                        <div style="display: flex; "><h2>`cena`</h2>
+                        <h5>`cena przed obniżką`</h5></div>
+                        <h3 style="margin-block-end: 0; margin-block-start: 0;">`nazwa Produktu`</h3>
+                    </a>
+                    <a href="" class="m-w">
+                        <div class="m-w4"></div>
+                        <div style="display: flex; "><h2>`cena`</h2>
+                        <h5>`cena przed obniżką`</h5></div>
+                        <h3 style="margin-block-end: 0; margin-block-start: 0;">`nazwa Produktu`</h3>
+                    </a>
+                    <a href="" class="m-w">
+                        <div class="m-w4"></div>
+                        <div style="display: flex; "><h2>`cena`</h2>
+                        <h5>`cena przed obniżką`</h5></div>
+                        <h3 style="margin-block-end: 0; margin-block-start: 0;">`nazwa Produktu`</h3>
+                    </a>
                 </div>
             </div>
         </div>
