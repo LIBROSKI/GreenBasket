@@ -25,6 +25,10 @@ p{
     font-family: 'Nunito Sans', sans-serif;
 }
 
+* {
+    scroll-behavior: smooth;
+}
+
 body{
     width: 80%;
     margin: 0 auto;
@@ -349,14 +353,11 @@ body{
 .sponsors-container {
     display: flex;
     justify-content: space-around;
-}
-
-.sponsors-panel {
-
+    margin-bottom: 10px;
 }
 
 .sponsors-panel:hover {
-
+    transform: scale(110%);
 }
 
 .sponsors-panel img {
