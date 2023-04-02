@@ -51,12 +51,39 @@
             display: flex;
             flex-direction: row;
             justify-content: start;
+            gap: 5px;
+            
         }
 
         .m-c-r{
-            border-width: 3px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            background-color: #1D1F21;
+            font-size: 16px;
+            padding: 5px 60px;
+            margin-top: 10px;
+            transition: all 0.2s;
+            font-family: 'Oxygen', sans-serif;
             border-radius: 15px;
             border-color: black;
+            border-width: 3px;
+            border-style: solid;
+        }
+
+        .m-c-r:hover{
+            background-color: #31A444;
+        }
+
+        .m-c-r:hover h4{
+            transform: scale(110%);
+        }
+
+        .m-c-r a{
+            color: white;
+            text-decoration: none;
         }
     </style>
 </head>
@@ -119,9 +146,9 @@
             <p>Kolor / dwie opcje koloru</p>
             <h3>Tabela rozmiarów</h3>
             <div class="m-c-rozmiar">
-                <div class="m-c-r"><h4>Small</h4></div>
-                <div class="m-c-r"><h4>Medium</h4></div>
-                <div class="m-c-r"><h4>Large</h4></div>
+                <div class="m-c-r"><a href="#"><h4>Small</h4></a></div>
+                <div class="m-c-r"><a href="#"><h4>Medium</h4></a></div>
+                <div class="m-c-r"><a href="#"><h4>Large</h4></a></div>
             </div>
         </div>
 
