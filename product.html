@@ -11,6 +11,11 @@
     <style>
         .m-product{
             width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            height: 500px;
+
         }
 
         .m-p-left{
@@ -24,41 +29,22 @@
             gap: 10px;
         }
 
-        .m-p-l-image1{
+        .m-p-l-image{
             width: 100%;
             height: 100px;
-            background-color: wheat;
-            background-image: url(/assets/3.png);
         }
 
-        .m-p-l-image2{
-            width: 100%;
+        .m-p-l-image img{
             height: 100px;
-            background-color: wheat;
-            background-image: url(/assets/3.png);
-        }
-
-        .m-p-l-image3{
             width: 100%;
-            height: 100px;
-            background-color: wheat;
-            background-image: url(/assets/3.png);
         }
-
-        .m-p-l-image4{
-            width: 100%;
-            height: 100px;
-            background-color: wheat;
-            background-image: url(/assets/3.png);
-        }
-
 
         .m-p-center{
-            float: right;
+            
         }
 
         .m-p-right{
-            float: right;
+
         }
     </style>
 </head>
@@ -100,19 +86,20 @@
     <section class="m-product">
 
         <div class="m-p-left">
-            <div class="m-p-l-image1"><a href="#">a</a></div>
-            <div class="m-p-l-image2"><a href="#">a</a></div>
-            <div class="m-p-l-image3"><a href="#">a</a></div>
-            <div class="m-p-l-image4"><a href="#">a</a></div>
+            <div class="m-p-l-image"><a href="#"><img src="assets/3.png" alt=""></a></div>
+            <div class="m-p-l-image"><a href="#"><img src="assets/3.png" alt=""></a></div>
+            <div class="m-p-l-image"><a href="#"><img src="assets/3.png" alt=""></a></div>
+            <div class="m-p-l-image"><a href="#"><img src="assets/3.png" alt=""></a></div>
         </div>
 
         <div class="m-p-center">
-            <a href="#"></a>
+            <div class="m-p-center"><a href="#"><img src="assets/3.png" alt=""></a></div>
         </div>
 
         <div class="m-p-right">
 
         </div>
+
     </section>
 
     <footer class="footer">
