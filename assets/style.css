@@ -366,6 +366,10 @@ body{
     color: white;
 }
 
+.in-f a:hover {
+    text-decoration: underline;
+}
+
 .main-store h1 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
@@ -414,4 +418,5 @@ body{
     flex-direction: column;
     justify-content: start;
     align-items: start;
+    font-family: 'Nunito Sans', sans-serif;
 }
