@@ -105,6 +105,12 @@ body{
     display: block;
 }
 
+.product-panel:hover .pp-img {
+    filter: blur(2px) saturate(145%);
+    -webkit-filter: blur(2px) saturate(145%);
+    -moz-filter: blur(2px) saturate(145%);
+}
+
 .pp-icon {
     font-size: 72px;
     position: absolute;
@@ -114,6 +120,7 @@ body{
     height: 0px;
     color: #31A444;
     display: none;
+    transition: all 0.2s;
 }
 
 .pp-procent{
@@ -136,7 +143,7 @@ body{
     background-color: #f2f2f2;
     padding: 20px 15px;
     border-radius: 15px;
-
+    transition: all 0.2s;
 }
 
 .pp-price-container {
