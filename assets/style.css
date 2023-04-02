@@ -335,6 +335,35 @@ body{
     border-radius: 15px;
 }
 
+.sponsors {
+    margin: 100px 0px;
+}
+
+.sponsors hr {
+    height: 2px;
+    background-color: #d7d8d8;
+    border-radius: 5px;
+    border-style: none;
+}
+
+.sponsors-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sponsors-panel {
+
+}
+
+.sponsors-panel:hover {
+
+}
+
+.sponsors-panel img {
+    width: 200px;
+    height: 200px;
+}
+
 .m-nowości{
     display: flex;
     flex-direction: row;
