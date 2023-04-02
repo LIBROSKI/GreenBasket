@@ -25,6 +25,10 @@ p{
     font-family: 'Nunito Sans', sans-serif;
 }
 
+* {
+    scroll-behavior: smooth;
+}
+
 body{
     width: 80%;
     margin: 0 auto;
