@@ -339,6 +339,21 @@ body{
     border-radius: 15px;
 }
 
+.m-eco-friendly {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 600;
+}
+
+.m-eco-friendly h1 {
+    font-size: 32px;
+}
+
+
+
 .sponsors {
     margin: 100px 0px;
 }
