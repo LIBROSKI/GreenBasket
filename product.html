@@ -39,6 +39,43 @@
             width: 100%;
         }
 
+        .rating:not(:checked) > input {
+            position: absolute;
+            appearance: none;
+        }
+
+        .rating:not(:checked) > label {
+            float: right;
+            cursor: pointer;
+            font-size: 50px;
+            color: #666;
+        }
+
+        .rating:not(:checked) > label:before {
+        content: '★';
+        }
+
+        .rating > input:checked + label:hover,
+        .rating > input:checked + label:hover ~ label,
+        .rating > input:checked ~ label:hover,
+        .rating > input:checked ~ label:hover ~ label,
+        .rating > label:hover ~ input:checked ~ label {
+            color: #31A444;
+        }
+
+        .rating:not(:checked) > label:hover,
+        .rating:not(:checked) > label:hover ~ label {
+            color: #31A444;
+        }
+
+        .rating > input:checked ~ label {
+            color: #31A444;
+        }
+
+
+
+
+
         .m-c-rozmiar{
             display: flex;
             flex-direction: row;
