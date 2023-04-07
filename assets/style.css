@@ -614,3 +614,24 @@ content: '★';
     color: white;
     text-decoration: none;
 }
+.nb-left{
+    color:#000000;
+    float:left;
+    text-align: center;
+    height: 40px;
+    width: 60px;
+    border-radius: 0;
+    text-decoration: none;
+
+
+
+}
+
+.nb-right{
+    text-decoration: none;
+    float: right:
+    
+}
+.nb-right-ul{
+    list-style-type: none;
+}
