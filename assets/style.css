@@ -668,24 +668,45 @@ body{
     color: white;
     text-decoration: none;
 }
+.nb-left img{
+    width: 150px;
+    height: 150px;
+    box-shadow: 0 0 5px #acacac;
+    padding: 5px;
+}
 .nb-left{
-    color:#000000;
-    float:left;
-    text-align: center;
-    height: 40px;
+    width: 65%;
+    height: 200px;
+    float: left;
+    box-shadow: 0 0 5px #acacac;
+}
+.nb-left textarea{
     width: 60px;
-    border-radius: 0;
+    height: 15px;
     text-decoration: none;
-
-
-
+    border: white;
 }
-
+.nb-left address{
+    display: flex;
+}
+.nb-left i textarea{
+    display: flex;
+}
 .nb-right{
-    text-decoration: none;
-    float: right:
-    
+    width: 30%;
+    height: 200px;
+    float: right;
+    box-shadow: 0 0 5px #acacac;
+    display: inline;
+    margin: auto;
+    float: right;
 }
-.nb-right-ul{
-    list-style-type: none;
+.nb-right button{
+    width: 160px;
+    height: 80px;
+    text-size-adjust: medium;
+    background-color: #31A444;
+    text-align: center;
+    display: inline;
 }
+
