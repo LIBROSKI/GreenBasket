@@ -12,6 +12,7 @@
         .main-c{
             display: flex;
             flex-direction: row;
+            align-items: center;
         }
 
         .m-c-left{
@@ -46,6 +47,96 @@
             text-decoration: none;
             color: black;
         }
+
+        .c-p-text{
+            display: flex;
+            flex-direction: column;
+            margin-left: 60px;
+        }
+
+        .c-p-t-top{
+            display: flex;
+            flex-direction: row;
+        }
+
+        .c-p-t-top h5{
+            margin-left: 500px;
+        }
+
+        .c-p-t-center{
+            display: flex;
+            flex-direction: row;
+        }
+
+        .c-p-t-center label{
+            margin-left: 500px;
+        }
+
+        .c-p-t-bottom h4{
+            margin-left: 500px;
+        }
+
+
+        .m-c-right{
+            width: 400px;
+            height: 250px;
+            border-radius: 20px;
+            border-style: solid;
+            border-color: black;
+            border-width: 2px;
+            margin-left: 120px;
+        }
+        
+        .m-c-right .m-c-k{
+            width: 200px;
+            display: flex;
+            margin: auto;
+        }
+
+        .m-c-right h1{
+            margin-left: 10px;
+        }
+
+        .m-c-right h2{
+            margin-left: 10px;
+        }
+
+        .container input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+            height: 0;
+            width: 0;
+        }
+
+        .container {
+            display: block;
+            position: relative;
+            cursor: pointer;
+            user-select: none;
+            width: 20px;
+            height: 20px;
+        }
+
+        .container svg {
+            position: relative;
+            top: 0;
+            left: 0;
+            height: 50px;
+            width: 50px;
+            transition: all 0.3s;
+            fill: #666;
+        }
+
+        .container svg:hover {
+            transform: scale(1.1);
+        }
+
+        .container input:checked ~ svg {
+            fill: #31A444;
+        }
+
+
     </style>
 </head>
 <body>
@@ -82,16 +173,31 @@
         </div>
     </section>
 
+    <h2>Kosz</h2>
     <section class="main-c">
-        <h2>Kosz</h2>
 
         <div class="m-c-left">
             <a href="#">
                 <div class="cart-product1">
                     <div class="c-p-image"></div>
+
                     <div class="c-p-text">
-                        <h2>Eko torba</h2>
-                        
+                        <div class="c-p-t-top">                        
+                            <h2>Eko torba</h2>
+                            <h5>Cena</h5>
+                        </div>
+
+                        <div class="c-p-t-center">
+                            <p>M</p>
+                            <label class="container">
+                                <input type="checkbox">
+                                <svg id="Layer_1" version="1.0" viewBox="0 0 24 24" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M16.4,4C14.6,4,13,4.9,12,6.3C11,4.9,9.4,4,7.6,4C4.5,4,2,6.5,2,9.6C2,14,12,22,12,22s10-8,10-12.4C22,6.5,19.5,4,16.4,4z"></path></svg>
+                              </label>
+                        </div>
+
+                        <div class="c-p-t-bottom">
+                            <h4>Zrób tymi znaczkami + i -</h4>
+                        </div>
                     </div>
                 </div>
             </a>
@@ -99,9 +205,23 @@
             <a href="#">
                 <div class="cart-product2">
                     <div class="c-p-image"></div>
-                    <div class="c-p-text">
-                        <h2>Eko torba</h2>
 
+                    <div class="c-p-text">
+                        <div class="c-p-t-top">                        
+                            <h2>Eko torba</h2>
+                            <h5>Cena</h5>
+                        </div>
+                        <div class="c-p-t-center">
+                            <p>M</p>
+                            <label class="container">
+                                <input type="checkbox">
+                                <svg id="Layer_1" version="1.0" viewBox="0 0 24 24" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M16.4,4C14.6,4,13,4.9,12,6.3C11,4.9,9.4,4,7.6,4C4.5,4,2,6.5,2,9.6C2,14,12,22,12,22s10-8,10-12.4C22,6.5,19.5,4,16.4,4z"></path></svg>
+                              </label>
+                        </div>
+
+                        <div class="c-p-t-bottom">
+                            <h4>Zrób tymi znaczkami + i -</h4>
+                        </div>
                     </div>
                 </div>
             </a>
@@ -111,15 +231,30 @@
                     <div class="c-p-image"></div>
 
                     <div class="c-p-text">
-                        <h2>Eko torba</h2>
+                        <div class="c-p-t-top">                        
+                            <h2>Eko torba</h2>
+                            <h5>Cena</h5>
+                        </div>
+                        <div class="c-p-t-center">
+                            <p>M</p>
+                            <label class="container">
+                                <input type="checkbox">
+                                <svg id="Layer_1" version="1.0" viewBox="0 0 24 24" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M16.4,4C14.6,4,13,4.9,12,6.3C11,4.9,9.4,4,7.6,4C4.5,4,2,6.5,2,9.6C2,14,12,22,12,22s10-8,10-12.4C22,6.5,19.5,4,16.4,4z"></path></svg>
+                              </label>
+                        </div>
 
+                        <div class="c-p-t-bottom">
+                            <h4>Zrób tymi znaczkami + i -</h4>
+                        </div>
                     </div>
                 </div>
             </a>
         </div>
 
         <div class="m-c-right">
-
+            <h1>Cena</h1>
+            <h2>Ileś tam</h2>
+            <div class="m-c-k"><a href="#"><h4>Przejdz do zakupu</h4></a></div>
         </div>
     </section>
 
