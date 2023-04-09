@@ -676,37 +676,65 @@ body{
 }
 .nb-left{
     width: 65%;
-    height: 200px;
+    height: 160px;
+    background-color: #d7d8d8;
     float: left;
     box-shadow: 0 0 5px #acacac;
+    flex-wrap: wrap;
 }
 .nb-left textarea{
     width: 60px;
     height: 15px;
     text-decoration: none;
     border: white;
+    float: right;
 }
 .nb-left address{
     display: flex;
 }
-.nb-left i textarea{
+.nb-left i{
     display: flex;
+    float: right;
+}
+.nb-left i:hover{
+color: #31A444;
 }
 .nb-right{
     width: 30%;
-    height: 200px;
+    height: 280px;
+    background-color: #d7d8d8;
     float: right;
     box-shadow: 0 0 5px #acacac;
     display: inline;
     margin: auto;
     float: right;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+.nb-right textarea{
+    float: left;
+    background-color: white;
+    color: #000000;
 }
 .nb-right button{
-    width: 160px;
-    height: 80px;
+    width: 270px;
+    height: 40px;
+    color: white;
+    text-size-adjust: medium;
+    background-color: #1d1f21;
+    text-align: center;
+    display: inline;
+    float: left;
+    margin: 30px;
+}
+.nb-right button:hover{
+    width: 270px;
+    height: 40px;
+    color: black;
     text-size-adjust: medium;
     background-color: #31A444;
     text-align: center;
     display: inline;
+    margin: 10px;
 }
 
