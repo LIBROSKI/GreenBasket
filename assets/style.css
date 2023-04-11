@@ -748,3 +748,265 @@ color: #31A444;
     display: inline;
     margin: 10px;
 }
+
+.main-cart {
+    display: flex;
+    flex-direction: column;
+}
+
+.c-title{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.c-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.c-price-contaier {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: #e5e4e4;
+    border-style: solid;
+    height: 180px;
+}
+
+.c-p-c-netto-price{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    margin-top: 10px;
+}
+
+.c-p-c-n-p-text {
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 600;
+    color: #b1b0b3;
+    font-size: 13px;
+}
+
+.c-p-c-discount {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.c-p-c-d-text {
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 600;
+    color: #31A444;
+    font-size: 15px;
+}
+
+.c-p-c-main-price {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.c-p-c-m-p-text {
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 600;
+}
+
+.c-p-c-m-p-bigger-text {
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.c-p-c-btn {
+    background-color: #31A444;
+    color: #F8F8F8;
+    padding: 10px 80px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 600;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.c-p-c-btn:hover {
+    background-color: #1D1F21;
+}
+
+.c-p-c-text-inpt {
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    border-style: none;
+    padding: 10px 20px;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 600;
+}
+
+.c-p-c-text-inpt::placeholder {
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 600;
+    color: #bbbbbc;
+}
+
+.c-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.c-products {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.c-product-panel {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 850px;
+}
+
+.c-p-p-img {
+    width: 150px;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+}
+
+.c-p-p-content-contaier {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.c-p-p-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.cart-delivery {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-top: 25px;
+}
+
+.c-d-btn-contaier {
+    display: flex;
+    gap: 2.5px;
+}
+
+.c-d-btn {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: #1D1F21;
+    font-size: 18px;
+    padding: 10px;
+    width: 50%;
+    margin-top: 10px;
+    transition: all 0.2s;
+    font-family: 'Oxygen', sans-serif;
+    border: none;
+    margin-bottom: 10px;
+}
+
+.c-d-btn-f {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.c-d-btn-r {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.c-d-btn:hover{
+    background-color: #31A444;
+}
+
+.c-d-btn:focus{
+    background-color: #31A444;
+}
+
+.c-d-data-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    background-color: #e5e4e4;
+    padding: 25px;
+    border-radius: 20px;
+}
+
+.c-d-data-container * {
+    margin-block-end: 0;
+    margin-block-start: 0;
+}
+
+.c-d-d-icon {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    cursor: pointer;
+    color: #a1a0a1;
+}
+
+.c-d-d-user-data {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.c-d-d-u-d-top {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 100%;
+}
+
+.c-d-d-u-d-top .c-p-c-text-inpt {
+    width: 50%;
+}
+
+.c-d-d-pay-data {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.pm-btn {
+    width: 49.45%;
+    background-color: #f2f2f2;
+    border: none;
+    font-size: 18px;
+    padding: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: normal;
+    border-radius: 10px;
+}
+
+.pm-btn i {
+    font-size: 20px;
+}
+
+.pm-btn:hover {
+    color: #f2f2f2;
+    background-color: #1D1F21;
+}
+
+.pm-btn:focus {
+    color: #f2f2f2;
+    background-color: #31A444;
+}
