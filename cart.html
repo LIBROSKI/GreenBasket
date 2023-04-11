@@ -9,7 +9,149 @@
     <link rel="stylesheet" href="assets/style.css">
     <script src="https://kit.fontawesome.com/d018ac103d.js" crossorigin="anonymous"></script>
     <style>
+        .main-cart {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .c-title{
+            font-size: 32px;
+            font-weight: 700;
+        }
+
+        .c-top {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+
+        .c-price-contaier {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 5px;
+            flex-direction: column;
+            padding: 10px;
+            border-radius: 10px;
+            border-color: #e5e4e4;
+            border-style: solid;
+            height: 180px;
+        }
+
+        .c-p-c-netto-price{
+            display: flex;
+            justify-content: space-between;
+            width: 200px;
+            margin-top: 10px;
+        }
+
+        .c-p-c-n-p-text {
+            font-family: 'Oxygen', sans-serif;
+            font-weight: 600;
+            color: #b1b0b3;
+            font-size: 13px;
+        }
+
+        .c-p-c-discount {
+            display: flex;
+            justify-content: space-between;
+            width: 200px;
+        }
+
+        .c-p-c-d-text {
+            font-family: 'Oxygen', sans-serif;
+            font-weight: 600;
+            color: #31A444;
+            font-size: 15px;
+        }
+
+        .c-p-c-main-price {
+            display: flex;
+            justify-content: space-between;
+            width: 200px;
+        }
+
+        .c-p-c-m-p-text {
+            font-family: 'Oxygen', sans-serif;
+            font-weight: 600;
+        }
+
+        .c-p-c-m-p-bigger-text {
+            font-family: 'Oxygen', sans-serif;
+            font-weight: 600;
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .c-p-c-btn {
+            background-color: #31A444;
+            color: #F8F8F8;
+            padding: 10px 80px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-size: 14px;
+            font-family: 'Oxygen', sans-serif;
+            font-weight: 600;
+            transition: all 0.2s;
+            cursor: pointer;
+        }
         
+        .c-p-c-btn:hover {
+            background-color: #1D1F21;
+        }
+
+        .c-p-c-text-inpt {
+            background-color: #f2f2f2;
+            border-radius: 5px;
+            border-style: none;
+            padding: 10px 20px;
+            font-family: 'Oxygen', sans-serif;
+            font-weight: 600;
+        }
+
+        .c-p-c-text-inpt::placeholder {
+            font-family: 'Oxygen', sans-serif;
+            font-weight: 600;
+            color: #bbbbbc;
+        }
+
+        .c-top {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        
+        .c-products {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .c-product-panel {
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            width: 850px;
+        }
+
+        .c-p-p-img {
+            width: 150px;
+            padding: 10px;
+            background-color: #f2f2f2;
+            border-radius: 10px;
+        }
+
+        .c-p-p-content-contaier {
+            display: flex;
+            justify-content: space-between;
+            width: 80%;
+        }
+
+        .c-p-p-content {
+            display: flex;
+            flex-direction: column;
+        }
+
     </style>
 </head>
 <body>
@@ -48,25 +190,72 @@
 
     <section class="main-cart">
         <h1 class="c-title">Koszyk</h1>
-        <div class="m-cart-top">
+        <div class="c-top">
             <div class="c-products">
                 <div class="c-product-panel">
                     <img src="assets/3.png" class="c-p-p-img">
-                    <div class="c-p-p-content">
-                        <h2 class="c-p-p-title">Torba eko</h2>
-                        <p class="c-p-p-size">Duża</p>
-                        <div class="c-p-p-quantity-container">
-                            <button class="c-p-p-q-btn"><i class="fa-solid fa-minus"></i></button>
-                            <span class="c-p-p-q-text">1</span>
-                            <button class="c-p-p-q-btn"><i class="fa-solid fa-plus"></i></button>
+                    <div class="c-p-p-content-contaier">
+                        <div class="c-p-p-content">
+                            <h2 class="c-p-p-title">Torba eko</h2>
+                            <p class="c-p-p-size">Duża</p>
+                            <div class="c-p-p-quantity-container">
+                                <button class="c-p-p-q-btn"><i class="fa-solid fa-minus"></i></button>
+                                <span class="c-p-p-q-text">1</span>
+                                <button class="c-p-p-q-btn"><i class="fa-solid fa-plus"></i></button>
+                            </div>
+                        </div>
+                        <div class="c-p-p-price-contaier">
+                            <h2 class="c-p-p-price">49.99 PLN</h2>
+                            <p class="c-p-p-discount">24.99 PLN</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="c-product-panel">
+                    <img src="assets/3.png" class="c-p-p-img">
+                    <div class="c-p-p-content-contaier">
+                        <div class="c-p-p-content">
+                            <h2 class="c-p-p-title">Torba eko</h2>
+                            <p class="c-p-p-size">Duża</p>
+                            <div class="c-p-p-quantity-container">
+                                <button class="c-p-p-q-btn"><i class="fa-solid fa-minus"></i></button>
+                                <span class="c-p-p-q-text">1</span>
+                                <button class="c-p-p-q-btn"><i class="fa-solid fa-plus"></i></button>
+                            </div>
+                        </div>
+                        <div class="c-p-p-price-contaier">
+                            <h2 class="c-p-p-price">49.99 PLN</h2>
+                            <p class="c-p-p-discount">24.99 PLN</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="c-product-panel">
+                    <img src="assets/3.png" class="c-p-p-img">
+                    <div class="c-p-p-content-contaier">
+                        <div class="c-p-p-content">
+                            <h2 class="c-p-p-title">Torba eko</h2>
+                            <p class="c-p-p-size">Duża</p>
+                            <div class="c-p-p-quantity-container">
+                                <button class="c-p-p-q-btn"><i class="fa-solid fa-minus"></i></button>
+                                <span class="c-p-p-q-text">1</span>
+                                <button class="c-p-p-q-btn"><i class="fa-solid fa-plus"></i></button>
+                            </div>
+                        </div>
+                        <div class="c-p-p-price-contaier">
+                            <h2 class="c-p-p-price">49.99 PLN</h2>
+                            <p class="c-p-p-discount">24.99 PLN</p>
                         </div>
                     </div>
                 </div>
             </div>
+            <div class="c-price-contaier">
+                <input type="text" class="c-p-c-text-inpt" placeholder="Wpisz kod promocyjny">
+                <span class="c-p-c-netto-price"><span class="c-p-c-n-p-text">Cena netto</span><span class="c-p-c-n-p-text">100 PLN</span></span>
+                <span class="c-p-c-discount"><span class="c-p-c-d-text">Przecena</span><span class="c-p-c-d-text">10 PLN</span></span>
+                <span class="c-p-c-main-price"><span class="c-p-c-m-p-text">Brutto</span><span class="c-p-c-m-p-bigger-text">90 PLN</span></span>
+                <a class="c-p-c-btn">Zapłać</a>
+            </div>
         </div>
-        <div class="">
 
-        </div>
         
     </section>
 
