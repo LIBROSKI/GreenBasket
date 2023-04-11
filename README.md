@@ -1,22 +1,19 @@
-# Opis css (ogólny opis właściwości danej )
-1. border-width z wartością 1px ustawia szerokość obramowania na 1px
-2. border-style z wartością hidden ukrywa obramowanie
-3. Właściwość box-shadow dodaje cień do obramowania elementu. Wartości to:
+# Opis css (ogólny opis właściwości danej komendy)
+- border-width z wartością 1px ustawia szerokość obramowania na 1px
+- border-style z wartością hidden ukrywa obramowanie
+- Właściwość box-shadow dodaje cień do obramowania elementu. Wartości to:
 0px - przesunięcie cienia w osi X
 0px - przesunięcie cienia w osi Y
 5px - rozmycie cienia
 rgba(66,66,66,.0) - kolor cienia w formacie RGBA, gdzie 66,66,66 to wartości RGB dla koloru szarego, a .0 to wartość przezroczystości ustawiona na 0, co oznacza, że cień będzie całkowicie przezroczysty.
-4. Właściwość text-shadow dodaje cień do tekstu. Wartości to:
+- Właściwość text-shadow dodaje cień do tekstu. Wartości to:
 0px - przesunięcie cienia w osi X
 0px - przesunięcie cienia w osi Y
 5px - rozmycie cienia
 rgba(66,66,66,.0) - kolor cienia w formacie RGBA, gdzie 66,66,66 to wartości RGB dla koloru szarego, a .0 to wartość przezroczystości ustawiona na 0, co oznacza, że cień będzie całkowicie przezroczysty.
-
-1. wartość focus powoduje zmiane elementu wraz z jego kliknięciem
-2. wartość outline: none; usuwa kontur elementu formularza wyszukiwania. Kontur ten jest standardowo wyświetlany wokół elementów formularzy
-
-1. placeholder jest to tekst wyświetlany w polu formularza, który służy jako podpowiedź dla użytkownika co powinien wpisać w to pole.
-
+- wartość focus powoduje zmiane elementu wraz z jego kliknięciem
+- wartość outline: none; usuwa kontur elementu formularza wyszukiwania. Kontur ten jest standardowo wyświetlany wokół elementów formularzy
+- placeholder jest to tekst wyświetlany w polu formularza, który służy jako podpowiedź dla użytkownika co powinien wpisać w to pole.
 - wysokość (height) jest ustawiona na 35% strony
 - wartość display pozwala na bezkarne ustawienie elementu
 - justify-content z wartością center ustawia element na środek w poziomie
@@ -40,20 +37,20 @@ rgba(66,66,66,.0) - kolor cienia w formacie RGBA, gdzie 66,66,66 to wartości RG
 - margin-top z warością 10px ustawia margines zewnętrzy górny na 10px
 - transition z wartościami all 0.2s ustawia przejście dla każdego elementu na 0,2s
 - font-family ustawia czcionke elementy na: 'Oxygen', sans-serif
-14. border-top-left-radius z wartością 10px ustawia zkarzywienie lewego górnego narożnika na 10px
-15. border-bottom-left-radius -||- (zmiania miejsca zakrzywienia)
-16. border-top-right-radius -||-
-17. border-bottom-right-radius -||-
-1. wartość hover powoduje zmiane elementu gdy najedzie się na niego myszką
-3. width z wartością 250px ustawia szerokość elementu na 250px (element może wystawiać poza ekran)
-4. height z wartością 500px ustawia szerokość elementu na 500px (element nie wyjdzie poza ekran [strona się rozszerzy])
-5. position z wartością absolute 
-6. bottom z wartością 180px przesuwa element o 180px w dół
-7. left z wartością 200px przesuwa element o 200psz w lewo
-1. display z wartością block sprawia wrażenie bloku w którym znajdują się inne elementy i rozpycha się w wszystkie strony
-2.  filter pozwala na uzyskanie efektu negatywu – odwrócenia kolorówt
-3.  text-decoration z wartością line-through sprawia że element jest przekreślony linią na środku
-4.  justify-content z wartością space-between odziela elementy między sobą w lini poziomej (elementy są odzielone równo)
-5.  font-weight z wartością 600 pogróbia text do 600
-6.  justify-content z wartością start przesuwa elementy do początku
-7.  font-size z wartością 15px powiększa text do 15px
+- border-top-left-radius z wartością 10px ustawia zkarzywienie lewego górnego narożnika na 10px
+- border-bottom-left-radius -||- (zmiania miejsca zakrzywienia)
+- border-top-right-radius -||-
+- border-bottom-right-radius -||-
+- wartość hover powoduje zmiane elementu gdy najedzie się na niego myszką
+- width z wartością 250px ustawia szerokość elementu na 250px (element może wystawiać poza ekran)
+- height z wartością 500px ustawia szerokość elementu na 500px (element nie wyjdzie poza ekran [strona się rozszerzy])
+- position z wartością absolute 
+- bottom z wartością 180px przesuwa element o 180px w dół
+- left z wartością 200px przesuwa element o 200psz w lewo
+- display z wartością block sprawia wrażenie bloku w którym znajdują się inne elementy i rozpycha się w wszystkie strony
+-  filter pozwala na uzyskanie efektu negatywu – odwrócenia kolorówt
+-  text-decoration z wartością line-through sprawia że element jest przekreślony linią na środku
+- justify-content z wartością space-between odziela elementy między sobą w lini poziomej (elementy są odzielone równo)
+-  font-weight z wartością 600 pogróbia text do 600
+-  justify-content z wartością start przesuwa elementy do początku
+- font-size z wartością 15px powiększa text do 15px
