@@ -14,9 +14,11 @@ rgba(66,66,66,.0) - kolor cienia w formacie RGBA, gdzie 66,66,66 to wartości RG
 0px - przesunięcie cienia w osi Y
 5px - rozmycie cienia
 rgba(66,66,66,.0) - kolor cienia w formacie RGBA, gdzie 66,66,66 to wartości RGB dla koloru szarego, a .0 to wartość przezroczystości ustawiona na 0, co oznacza, że cień będzie całkowicie przezroczysty.
-- ## searchbar:focus
+- ## Searchbar:focus
 1. wartość focus powoduje zmiane elementu wraz z jego kliknięciem
 2. wartość outline: none; usuwa kontur elementu formularza wyszukiwania. Kontur ten jest standardowo wyświetlany wokół elementów formularzy
+- ## Serchbar:placeholder
+1. placeholder jest to tekst wyświetlany w polu formularza, który służy jako podpowiedź dla użytkownika co powinien wpisać w to pole.
 
 ## Header
 - wysokość (height) jest ustawiona na 35% strony
