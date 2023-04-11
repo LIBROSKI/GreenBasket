@@ -4,9 +4,19 @@
 - ## Serchbar
 1. border-width z wartością 1px ustawia szerokość obramowania na 1px
 2. border-style z wartością hidden ukrywa obramowanie
-3. box-shadow
-4. text-shadow
-- 
+3. Właściwość box-shadow dodaje cień do obramowania elementu. Wartości to:
+0px - przesunięcie cienia w osi X
+0px - przesunięcie cienia w osi Y
+5px - rozmycie cienia
+rgba(66,66,66,.0) - kolor cienia w formacie RGBA, gdzie 66,66,66 to wartości RGB dla koloru szarego, a .0 to wartość przezroczystości ustawiona na 0, co oznacza, że cień będzie całkowicie przezroczysty.
+4. Właściwość text-shadow dodaje cień do tekstu. Wartości to:
+0px - przesunięcie cienia w osi X
+0px - przesunięcie cienia w osi Y
+5px - rozmycie cienia
+rgba(66,66,66,.0) - kolor cienia w formacie RGBA, gdzie 66,66,66 to wartości RGB dla koloru szarego, a .0 to wartość przezroczystości ustawiona na 0, co oznacza, że cień będzie całkowicie przezroczysty.
+- ## searchbar:focus
+1. wartość focus powoduje zmiane elementu wraz z jego kliknięciem
+2. wartość outline: none; usuwa kontur elementu formularza wyszukiwania. Kontur ten jest standardowo wyświetlany wokół elementów formularzy
 
 ## Header
 - wysokość (height) jest ustawiona na 35% strony
