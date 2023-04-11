@@ -892,6 +892,10 @@ color: #31A444;
     flex-direction: column;
 }
 
+.c-p-p-discount {
+    text-decoration: line-through;
+}
+
 .cart-delivery {
     display: flex;
     flex-direction: column;
