@@ -179,7 +179,7 @@
             transition: all 0.2s;
             font-family: 'Oxygen', sans-serif;
             border: none;
-
+            margin-bottom: 10px;
         }
 
         .c-d-btn-f {
@@ -221,6 +221,23 @@
             right: 25px;
             cursor: pointer;
             color: #a1a0a1;
+        }
+
+        .c-d-d-user-data {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        
+        .c-d-d-u-d-top {
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            width: 100%;
+        }
+
+        .c-d-d-u-d-top .c-p-c-text-inpt {
+            width: 50%;
         }
     </style>
 </head>
@@ -328,7 +345,7 @@
     </section>
 
     <section class="cart-delivery">
-        <h1 class="c-title" style="font-size: 24px;">Dane dostawy</h1>
+        <h1 class="c-title" style="font-size: 24px;">Dane Dostawy</h1>
         <div class="c-d-btn-contaier">
             <button class="c-d-btn c-d-btn-f">Punkt odbioru</button>
             <button class="c-d-btn c-d-btn-r">Kurier</button>
@@ -339,6 +356,21 @@
             <p>65-175</p>
             <h3>Dostawa 4-5 maja</h3>
             <a class="c-d-d-icon"><i class="fa-solid fa-pen"></i></a>
+        </div>
+        <h1 class="c-title" style="font-size: 24px;">Dane Odbiorcy</h1>
+        <div class="c-d-d-user-data">
+            <div class="c-d-d-u-d-top">            
+                <input type="text" class="c-p-c-text-inpt" placeholder="Imię">
+                <input type="text" class="c-p-c-text-inpt" placeholder="Nazwisko">
+            </div>
+            <input type="tel" class="c-p-c-text-inpt" placeholder="+48 123 456 789">
+        </div>
+        <h1 class="c-title" style="font-size: 24px;">Metoda Płatności</h1>
+        <div class="c-d-d-pay-data">
+            <button><i class="fa-regular fa-money-bill-1"></i> Opłata za pobraniem</button>
+            <button><i class="fa-brands fa-google-pay"></i> Google Pay</button>
+            <button><i class="fa-regular fa-credit-card"></i> Karta kredytowa</button>
+            <button><i class="fa-solid fa-gift"></i> Karta Podarunkowa</button>
         </div>
     </section>
     
