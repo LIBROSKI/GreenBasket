@@ -19,7 +19,6 @@ rgba(66,66,66,.0) - kolor cienia w formacie RGBA, gdzie 66,66,66 to wartości RG
 - justify-content z wartością center ustawia element na środek w poziomie
 - align-items z wartością center ustawia elementy na środek w pionie
 - flex-direction z wartością column ustawia elementy jeden <u>pod</u> drugim
-- ## Baner
 - szerokość (width) jest ustawiona na 100% headera
 -  wysokość + jest ustawiona na 100% headera
 -  wysokość (height) jest ustawiona na 100% headera
@@ -32,6 +31,7 @@ rgba(66,66,66,.0) - kolor cienia w formacie RGBA, gdzie 66,66,66 to wartości RG
 - gap (potrzebuje display: flex;) z wartością 5px odziela elementy od siebie w odległości 5px
 - color z wartością white zmienia kolor tekstu na biały
 - background-color z wartością  #1D1F21 zmienia kolor tła na podany
+-background-imagez warością url(assets/GreenBasket3) wyświetla zdjęcie z podanej ścieżki jako tło elementu
 - font-size z wartością 24px zmienia wielkośc tekstu na 24px
 - padding z wartościami 20px 60px ustawia margines wewnętrzny górny i dolny na 20px, lewy i prawy  na 60px
 - margin-top z warością 10px ustawia margines zewnętrzy górny na 10px
