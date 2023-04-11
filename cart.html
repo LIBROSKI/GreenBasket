@@ -239,6 +239,37 @@
         .c-d-d-u-d-top .c-p-c-text-inpt {
             width: 50%;
         }
+
+        .c-d-d-pay-data {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .pm-btn {
+            width: 49.45%;
+            background-color: #f2f2f2;
+            border: none;
+            font-size: 18px;
+            padding: 20px;
+            font-family: 'Nunito Sans', sans-serif;
+            font-weight: normal;
+            border-radius: 10px;
+        }
+
+        .pm-btn i {
+            font-size: 20px;
+        }
+
+        .pm-btn:hover {
+            color: #f2f2f2;
+            background-color: #1D1F21;
+        }
+
+        .pm-btn:focus {
+            color: #f2f2f2;
+            background-color: #31A444;
+        }
     </style>
 </head>
 <body>
@@ -360,17 +391,17 @@
         <h1 class="c-title" style="font-size: 24px;">Dane Odbiorcy</h1>
         <div class="c-d-d-user-data">
             <div class="c-d-d-u-d-top">            
-                <input type="text" class="c-p-c-text-inpt" placeholder="Imię">
-                <input type="text" class="c-p-c-text-inpt" placeholder="Nazwisko">
+                <input type="text" class="c-p-c-text-inpt" placeholder="Imię Nazwisko">
+                <input type="text" class="c-p-c-text-inpt" placeholder="+48 123 456 789">
             </div>
-            <input type="tel" class="c-p-c-text-inpt" placeholder="+48 123 456 789">
+            <input type="email" class="c-p-c-text-inpt" placeholder="Email">
         </div>
         <h1 class="c-title" style="font-size: 24px;">Metoda Płatności</h1>
         <div class="c-d-d-pay-data">
-            <button><i class="fa-regular fa-money-bill-1"></i> Opłata za pobraniem</button>
-            <button><i class="fa-brands fa-google-pay"></i> Google Pay</button>
-            <button><i class="fa-regular fa-credit-card"></i> Karta kredytowa</button>
-            <button><i class="fa-solid fa-gift"></i> Karta Podarunkowa</button>
+            <button class="pm-btn"><i class="fa-regular fa-money-bill-1"></i> Opłata za pobraniem</button>
+            <button class="pm-btn"><i class="fa-brands fa-google-pay"></i> Google Pay</button>
+            <button class="pm-btn"><i class="fa-regular fa-credit-card"></i> Karta kredytowa</button>
+            <button class="pm-btn"><i class="fa-solid fa-gift"></i> Karta Podarunkowa</button>
         </div>
     </section>
     
