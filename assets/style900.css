@@ -33,8 +33,9 @@ p{
 }
 
 body{
-    width: 80%;
-    margin: 0 auto;
+    width: 100%;
+    margin: 0;
+    background-color: #fff;
 }
 
 /* Nav Bar */
@@ -52,7 +53,7 @@ body{
 }
 
 .navbar-local {
-    display: flex;
+    display: none;
     flex-direction: row;
     font-family: 'Oxygen', sans-serif;
     gap: 20px;
@@ -93,6 +94,10 @@ body{
     align-items: center;
     justify-content: space-between;
     padding: 20px 0px;
+}
+
+.nb-bottom .link-2 {
+    display: none;
 }
 
 .nb-b-logo {
@@ -170,6 +175,7 @@ body{
     box-shadow: 0px 0px 5px rgba(66,66,66,.0);
     text-shadow: 0px 0px 5px rgba(66,66,66,.0);
     width: 700px;
+    display: none;
 }
 
 .searchbar:focus {
@@ -185,13 +191,14 @@ body{
     position: relative;
     right: 32px;
     color: #acacac;
+    display: none;
 }
 /* -------- */
 
 /* Nagłówek */
 
 .header{
-    height: 35%;
+    height: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -200,15 +207,14 @@ body{
 
 #baner{
     width: 100%;
-    height: 500px;
     background-image: url("GreenBasket.png");
     background-size: 100%;
     display: flex;
-    border-radius: 15px;
+    border-radius: 0;
 }
 
 .h-nav{
-    display: flex;
+    display: none;
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -249,8 +255,9 @@ body{
 /* Wyprzedaż */
 .m-wyprzedaż{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .product-panel{
@@ -351,7 +358,7 @@ body{
 }
 
 .m-eco-friendly {
-    display: flex;
+    display: none;
     align-items: start;
     justify-content: space-between;
     font-family: 'Oxygen', sans-serif;
@@ -401,8 +408,9 @@ body{
 
 .m-nowości{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
+    align-items: center;
 }
 
 .footer{
