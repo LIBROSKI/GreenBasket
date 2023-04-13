@@ -7,69 +7,65 @@
 0px - przesunięcie cienia w osi X
 0px - przesunięcie cienia w osi Y
 5px - rozmycie cienia
-rgba(66,66,66,.0) - kolor cienia w formacie RGBA, gdzie 66,66,66 to wartości RGB dla koloru szarego, a .0 to wartość przezroczystości ustawiona na 0, co oznacza, że cień będzie całkowicie przezroczysty,
+rgba(66,66,66,.0) - kolor cienia w formacie RGBA, gdzie 66,66,66 to wartości RGB dla koloru szarego, a .0 to wartość przezroczystości ustawiona na 0, co oznacza, że cień będzie całkowicie przezroczysty
 
 - Właściwość text-shadow dodaje cień do tekstu. Wartości to:
 0px - przesunięcie cienia w osi X
 0px - przesunięcie cienia w osi Y
 5px - rozmycie cienia
-rgba(66,66,66,.0) - kolor cienia w formacie RGBA, gdzie 66,66,66 to wartości RGB dla koloru szarego, a .0 to wartość przezroczystości ustawiona na 0, co oznacza, że cień będzie całkowicie przezroczysty,
+rgba(66,66,66,.0) - kolor cienia w formacie RGBA, gdzie 66,66,66 to wartości RGB dla koloru szarego, a .0 to wartość przezroczystości ustawiona na 0, co oznacza, że cień będzie całkowicie przezroczysty
 
-- wartość focus powoduje zmiane elementu wraz z jego kliknięciem,
+- wartość focus powoduje zmiane elementu wraz z jego kliknięciem
 
-- wartość outline: none; usuwa kontur elementu formularza wyszukiwania. Kontur ten jest standardowo wyświetlany wokół elementów formularzy,
+- wartość outline: none; usuwa kontur elementu formularza wyszukiwania. Kontur ten jest standardowo wyświetlany wokół elementów formularzy
 
-- placeholder jest to tekst wyświetlany w polu formularza, który służy jako podpowiedź dla użytkownika co powinien wpisać w to pole,
+- placeholder jest to tekst wyświetlany w polu formularza, który służy jako podpowiedź dla użytkownika co powinien wpisać w to pole
 
-- wysokość (height) jest ustawiona na 35% strony,
+- height z wartością 35% spowoduje, że wysokość elementu będzie wynosić 35% wysokości jego elementu nadrzędnego
 
-- wartość display pozwala na bezkarne ustawienie elementu,
+- display z wartością flex spowoduje, że element będzie używał modelu flexbox do zarządzania układem i rozmieszczeniem jego dzieci (elementów podrzędnych)
 
-- justify-content z wartością center ustawia element na środek w poziomie,
+- justify-content z wartością center ustawia element na środek w poziomie
 
-- align-items z wartością center ustawia elementy na środek w pionie,
+- align-items z wartością center ustawia elementy na środek w pionie
 
-- flex-direction z wartością column ustawia elementy jeden <u>pod</u> drugim,
+- flex-direction z wartością column ustawia elementy jeden <u>pod</u> drugim
 
-- szerokość (width) jest ustawiona na 100% headera,
+- szerokość (width) jest ustawiona na 100% headera
 
--  wysokość + jest ustawiona na 100% headera,
+-  wysokość + jest ustawiona na 100% headera
 
--  wysokość (height) jest ustawiona na 100% headera,
+-  wysokość (height) jest ustawiona na 100% headera
 
-- tło jest ustawione na zdjęcie GreenBasket.png,
+- border-radius z wartością 15px powoduje zakrzywienie krawędzi na 15px
 
-- border-radius z wartością 15px powoduje zakrzywienie krawędzi na 15px,
+- background-size z wartośćią 100% wyświetla obraz w 100% powierzchni
 
-- background-size z wartośćią 100% wyświetla obraz w 100% powierzchni,
+- flex-direction z wartością row ustawia elementy jeden <u>po</u> drugim
 
-- bottom
+- flex-wrap określa, czy elementy będą przenoszone do kolejnej linii jeżeli zajdzie taka potrzeba
 
-- flex-direction z wartością row ustawia elementy jeden <u>po</u> drugim,
+- text-decoration z wartością none powoduje brak dekoracji tekstu
 
-- flex-wrap określa, czy elementy będą przenoszone do kolejnej linii jeżeli zajdzie taka potrzeba,
+- text-shadow - definiuje cień dla tekstu
 
-- text-decoration z wartością none powoduje brak dekoracji tekstu,
+- gap (potrzebuje display: flex;) z wartością 5px odziela elementy od siebie w odległości 5px
 
-- text-shadow - definiuje cień dla tekstu,
+- color z wartością white zmienia kolor tekstu na biały
 
-- gap (potrzebuje display: flex;) z wartością 5px odziela elementy od siebie w odległości 5px,
+- background-color z wartością  #1D1F21 zmienia kolor tła na podany
 
-- color z wartością white zmienia kolor tekstu na biały,
+-background-image z warością url(assets/GreenBasket3) wyświetla zdjęcie z podanej ścieżki jako tło elementu
 
-- background-color z wartością  #1D1F21 zmienia kolor tła na podany,
+- font-size z wartością 24px zmienia wielkośc tekstu na 24px
 
--background-image z warością url(assets/GreenBasket3) wyświetla zdjęcie z podanej ścieżki jako tło elementu,
+- padding z wartościami 20px 60px ustawia margines wewnętrzny górny i dolny na 20px, lewy i prawy  na 60px
 
-- font-size z wartością 24px zmienia wielkośc tekstu na 24px,
+- margin-top z warością 10px ustawia margines zewnętrzy górny na 10px
 
-- padding z wartościami 20px 60px ustawia margines wewnętrzny górny i dolny na 20px, lewy i prawy  na 60px,
+- transition z wartościami all 0.2s ustawia przejście dla każdego elementu na 0,2s
 
-- margin-top z warością 10px ustawia margines zewnętrzy górny na 10px,
-
-- transition z wartościami all 0.2s ustawia przejście dla każdego elementu na 0,2s,
-
-- font-family ustawia czcionke elementy na: 'Oxygen', sans-serif,
+- font-family ustawia czcionke elementu na 'Oxygen', sans-serif,
 
 - border-top-left-radius z wartością 10px ustawia zkarzywienie lewego górnego narożnika na 10px,
 
@@ -135,7 +131,7 @@ rgba(66,66,66,.0) - kolor cienia w formacie RGBA, gdzie 66,66,66 to wartości RG
 
 - transform z wartością .3s ease ustawienie wartości ".3s ease" dla tej właściwości określa czas trwania i funkcję przejścia (easing function) animacji transformacji
 
--  background-size z wartościa "cover"
+-  background-size z wartością "cover"
 
 - appearance z wartością "none"
 
