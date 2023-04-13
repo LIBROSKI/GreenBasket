@@ -139,7 +139,7 @@ rgba(66,66,66,.0) - kolor cienia w formacie RGBA, gdzie 66,66,66 to wartości RG
 
 - moz-filter z wartością "blur(2px) saturate(145%)" -||- (zmiana przeglądarek)
 
-- transition z wartością "all 0.2s"
+- transition z wartością "all 0.2s"oznacza to, że każda zmiana stylu elementu będzie animowana przez 0.2 sekundy
   
 -text-shadow - definiuje cień dla tekstu.
     
