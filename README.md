@@ -83,55 +83,57 @@ rgba(66,66,66,.0) - kolor cienia w formacie RGBA, gdzie 66,66,66 to wartości RG
 
 - border-color z wartością "black" zmienai kolor krawędzi elementu na czarny,
    
-- border-width z wartościa "3px" ustawia szerokość obramowania na 3px,
+- border-width z wartościa "3px" ustawia szerokość obramowania na 3px
     
-- border-style z wartością "solid" określa styl obramowania na solid,
+- border-style z wartością "solid" określa styl obramowania na solid
 
-- wartość hover powoduje zmiane elementu gdy najedzie się na niego myszką,
+- wartość hover powoduje zmiane elementu gdy najedzie się na niego myszką
 
-- width z wartością 250px ustawia szerokość elementu na 250px (element może wystawiać poza ekran),
+- width z wartością 250px ustawia szerokość elementu na 250px (element może wystawiać poza ekran)
 
-- height z wartością 500px ustawia szerokość elementu na 500px (element nie wyjdzie poza ekran (strona się rozszerzy)),
+- height z wartością 500px ustawia szerokość elementu na 500px (element nie wyjdzie poza ekran (strona się rozszerzy))
 
-- position z wartością absolute,
+- position z wartością absolute spowoduje, że element będzie ustawiony w określonym miejscu na stronie bez uwzględnienia innych elementów.
 
-- bottom z wartością 180px przesuwa element o 180px w dół,
+- bottom z wartością 180px przesuwa element o 180px w dół
 
-- left z wartością 200px przesuwa element o 200psz w lewo,
+- left z wartością 200px przesuwa element o 200psz w lewo
 
-- display z wartością block sprawia wrażenie bloku w którym znajdują się inne elementy i rozpycha się w wszystkie strony,
+- display z wartością block sprawia wrażenie bloku w którym znajdują się inne elementy i rozpycha się w wszystkie strony
 
-- display z wartością flex służy do wyrównywania i rozmieszczania elementów w kierunku poziomym lub pionowym,
+- display z wartością flex służy do wyrównywania i rozmieszczania elementów w kierunku poziomym lub pionowym
 
-- display z wartością none powoduje niewyświetlanie elementu, chociaż w źródle dokumentu w dalszym ciągu istnieje,
+- display z wartością none powoduje niewyświetlanie elementu, chociaż w źródle dokumentu w dalszym ciągu istnieje
 
 -  filter pozwala na uzyskanie efektu negatywu – odwrócenia kolorów,
 
 -  text-decoration z wartością line-through sprawia że element jest przekreślony linią na środku,
 
-- text-align z wartością center sprawia że tekst zostanie wyśrodkowany w obszarze zawartości elementu HTML względem obu krawędzi liniowych elementu,
+- text-align z wartością center sprawia że tekst zostanie wyśrodkowany w obszarze zawartości elementu HTML względem obu krawędzi liniowych elementu
 
-- justify-content z wartością space-between odziela elementy między sobą w lini poziomej (elementy są odzielone równo),
+- justify-content z wartością space-between odziela elementy między sobą w lini poziomej (elementy są odzielone równo)
 
--  font-weight z wartością 600 pogróbia text do 600,
+-  font-weight z wartością 600 pogróbia text do 600
 
--  justify-content z wartością start przesuwa elementy do początku,
+-  justify-content z wartością start spowoduje wyrównanie elementów do lewej strony kontenera, pozostawiając wolne miejsce na prawej stronie
 
-- font-size z wartością 15px powiększa text do 15px,
+- font-size z wartością 15px powiększa text do 15px
 
-- scroll-behavior z wartością smooth umożliwia płynny animowany „efekt przewijania” między elementami w przewijanym polu,
+- scroll-behavior z wartością smooth umożliwia płynny animowany „efekt przewijania” między elementami w przewijanym polu
 
-- position z wartoscią relative _________
+- "position: relative" określa on, że element powinien pozostawać w swoim naturalnym miejscu w dokumencie, ale można przesunąć go o określoną wartość w lewo, prawo, górę lub dół względem jego pierwotnej pozycji
 
--  margin-block-start z wartością "0"
+-  margin-block-start z wartością "0" to właściwość, która definiuje odstęp między elementem a początkiem bloku, w którym ten element się znajduje
 
-- margin-block-end z wartością "0"
+- margin-block-end z wartością "0" to właściwość, która definiuje odstęp między elementem a końcem bloku, w którym ten element się znajduje
 
-- float z wartością "right"
+- float z wartością "right" określa sposób ustawiania elementu na stronie internetowej w relacji do innych elementów. Ustawienie wartości "right" dla tej właściwości spowoduje, że element zostanie przesunięty w prawą stronę i będzie umieszczony na prawej stronie bloku lub kontenera, w którym się znajduje
 
-- cursor z wartością poiner
+- cursor z wartością poiner definiuje wygląd kursora myszy, który pojawia się, gdy użytkownik najedzie na dany element na stronie internetowej. Ustawienie wartości "pointer" dla tej właściwości spowoduje, że kursor myszy zostanie zmieniony na małą rękę z palcem wskazującym, co sygnalizuje, że dany element jest interaktywny i można na nim wykonać jakąś akcję, na przykład kliknąć
 
-- transform z wartością "scale(110% justify-content: start)"
+- transform z wartością "scale (110%)" spowoduje skalowanie elementu o 110% względem jego pierwotnego rozmiaru w obu kierunkach, poziomym i pionowym.
+
+- transform z wartością .3s ease ustawienie wartości ".3s ease" dla tej właściwości określa czas trwania i funkcję przejścia (easing function) animacji transformacji
 
 -  background-size z wartościa "cover"
 
