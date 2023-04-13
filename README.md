@@ -131,13 +131,13 @@ rgba(66,66,66,.0) - kolor cienia w formacie RGBA, gdzie 66,66,66 to wartości RG
 
 - transform z wartością .3s ease ustawienie wartości ".3s ease" dla tej właściwości określa czas trwania i funkcję przejścia (easing function) animacji transformacji
 
--  background-size z wartością "cover"
+-  background-size z wartością "cover" spowoduje, że tło zostanie rozciągnięte w taki sposób, aby wypełnić całą powierzchnię elementu i być widoczne w całości.
 
-- appearance z wartością "none"
+- appearance z wartością "none" spowoduje, że element formularza zostanie ukryty i nie będzie widoczny na stronie
 
-- webkit-filter z wartością "blur(2px) saturate(145%)"
+- webkit-filter z wartościami "blur(2px) saturate(145%)" ("webkit-filter" służy do zastosowania efektów filtrów obrazu na elementach strony internetowej w przeglądarce Safari lub innych przeglądarkach korzystających z silnika WebKit) spowoduje zastosowanie rozmycia Gaussa z wartością 2 pikseli oraz zwiększenie nasycenia kolorów o 145% dla obrazów wyświetlanych na elemencie.
 
-- moz-filter z wartością "blur(2px) saturate(145%)"
+- moz-filter z wartością "blur(2px) saturate(145%)" -||- (zmiana przeglądarek)
 
 - transition z wartością "all 0.2s"
   
