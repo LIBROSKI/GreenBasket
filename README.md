@@ -141,7 +141,7 @@ rgba(66,66,66,.0) - kolor cienia w formacie RGBA, gdzie 66,66,66 to wartości RG
 
 - transition z wartością "all 0.2s"
   
--text-shadow z wartością "0px 0px 5px rgba(66,66,66,.0)"
+-text-shadow - definiuje cień dla tekstu.
     
-- outline z wartością "none"
+- outline - służy do rysowania obramowań
 
