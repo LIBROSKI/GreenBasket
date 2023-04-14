@@ -1,6 +1,6 @@
 `printf("Hello world!");`
 # Opis css (ogólny opis właściwości danej komendy)
-## Wykonali Lucjan Hordziejewicz i Miłosz Stefaniak
+## **Wykonali Lucjan Hordziejewicz i Miłosz Stefaniak**
 ## Ten plik opisuje wybrane komendy zastosowane w pliku style.css (wybraliśmy konkretne komendy [te które się powtarzają] ponieważ nie widzieliśmy sensu opisywania każdej linijki css-a w tym pliku README.md)
 - border-width z wartością 1px ustawia szerokość obramowania na 1px,
 
